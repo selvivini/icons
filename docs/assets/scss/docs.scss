@@ -7,11 +7,15 @@
 @import "syntax";
 @import "ads";
 
+.hero-notice {
+  background-color: $teal-100;
+}
+
 .highlight {
   pre {
     padding: 1.25rem;
     margin-bottom: 1.5rem;
-    background-color: rgba(0, 0, 0, .025);
+    background-color: $gray-100;
     border-radius: .25rem;
     scrollbar-width: none;
 
@@ -60,6 +64,10 @@
 
   .f3 {
     max-width: 680px;
+  }
+
+  .highlight pre {
+    border-radius: .5rem;
   }
 
   hr {

@@ -70,3 +70,9 @@
 /* LiteralStringOther */ .chroma .sx { color: #c30; }
 /* TextWhitespace */ .chroma .w { color: #bbb; }
 
+.chroma .language-bash::before,
+.chroma .language-sh::before {
+  color: $gray-500;
+  content: "$ ";
+  user-select: none;
+}

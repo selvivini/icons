@@ -4,9 +4,13 @@ $gray-100: #f8f9fa;
 $gray-500: #adb5bd;
 $gray-700: #495057;
 $primary:  #0d6efd;
+$green:    #198754;
+$green-100:#d1e7dd;
+$teal-100: #d2f4ea;
 
 // Local docs variables
 $bd-purple:        #563d7c;
 $bd-purple-bright: lighten(saturate($bd-purple, 5%), 15%); // #7952b3
+$bd-purple-light:  lighten(saturate($bd-purple, 5%), 55%);
 $bd-dark:          #2a2730;
 $bd-download:      #ffe484;
