@@ -35,7 +35,7 @@
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
 
-  + .highlight pre {
+  + .bd-clipboard + .highlight pre {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
@@ -67,7 +67,12 @@
   }
 
   .highlight pre {
+    padding-right: 4em;
+    margin-bottom: 0;
     border-radius: .5rem;
+  }
+  .btn-clipboard {
+    top: .625em;
   }
 
   hr {
